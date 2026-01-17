@@ -77,8 +77,5 @@ python src/audit_pipeline.py
 * **Image Processing:** [OpenCV Laplacian Variance for Blur Detection](https://docs.opencv.org/4.x/d5/db5/tutorial_laplace_operator.html)
 * **Data-Centric AI:** [Andrew Ng's Data-Centric AI Resource Hub](https://datacentricai.org/)
 
-## 🤝 Contributing & Support
-This is a portfolio project developed for AI/ML internship applications. If you are from the **Avyaan Management / Dhriti AI** team and have feedback on the pipeline architecture, feel free to reach out!
-
 ---
 **Aawhan Vyas** | [LinkedIn](https://www.linkedin.com/in/aawhanvyas) | [GitHub](https://github.com/aawhan0)
