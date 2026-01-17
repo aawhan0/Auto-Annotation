@@ -26,9 +26,10 @@ The pipeline utilizes a YOLOv8 nano model for high-speed inference.
 * **Audit Flag:** Any image with detections **<85%** or zero detections is moved to a `needs_review` folder.
 
 <p align="center">
-  <img src="assets/ui_screenshot.png" width="800" alt="UI Screenshot">
+  <img src="assets/ui_screenshot.png" width="800" alt="Construction Safety Audit Tool UI">
+  <br>
+  <b>Figure 1:</b> <i>Interactive UI showing the Dual-Layer Audit flagging a low-confidence detection.</i>
 </p>
-
 ## 📊 Business Impact
 * **Efficiency:** Estimated **70% reduction** in manual annotation workload.
 * **Scalability:** Modular Python architecture allows for easy integration into MLOps pipelines.
