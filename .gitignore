@@ -1,0 +1,12 @@
+# Data and Models
+data/
+models/*.pt
+
+# Python Environment
+__pycache__/
+*.py[cod]
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints
