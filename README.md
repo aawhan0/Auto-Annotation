@@ -2,12 +2,15 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aawhanvyas-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/aawhanvyas)
 [![GitHub](https://img.shields.io/badge/GitHub-aawhan0-lightgrey?style=flat&logo=github)](https://github.com/aawhan0)
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?style=flat&logo=streamlit)](https://auto-annotation-aawhan0.streamlit.app/)
 
 ## 🚀 The Problem
 In production level AI, manual data labeling is the most expensive and time consuming bottleneck. Raw datasets are often noisy; they frequently contain blurry images or ambiguous objects that can degrade model performance if not filtered correctly.
 
 ## 🛠️ The Solution
 I developed an **Automated Annotation & Quality Audit Pipeline** designed for industrial grade datasets (specifically Construction Site Safety). This tool implements a "Human-in-the-Loop" architecture that automates the labeling process while maintaining a strict "Gold Standard" for data quality.
+
+### 🔗 [Click Here for the Live Demo](https://auto-annotation-aawhan0.streamlit.app/)
 
 ## 🧠 Technical Methodology
 The pipeline processes raw data through two critical audit layers:
@@ -21,10 +24,12 @@ Before the AI ever sees the data, a script audits the image for clarity using **
 The pipeline utilizes a YOLOv8 nano model for high-speed inference.
 * **Auto-Accept:** Detections with **>85% confidence** are automatically saved in production-ready YOLO format.
 * **Audit Flag:** Any image with detections **<85%** or zero detections is moved to a `needs_review` folder.
-* **Impact:** Ensures 100% accuracy by forcing human intervention only where the AI is uncertain.
 
-[Image of a human-in-the-loop data labeling workflow showing AI auto-labeling and human verification steps]
-
+<p align="center">
+  <img src="assets/ui_screenshot1.png" width="800" alt="Construction Safety Audit Tool UI">
+  <br>
+  <b>Figure 1:</b> <i>Interactive UI showing the Dual-Layer Audit flagging a low-confidence detection.</i>
+</p>
 ## 📊 Business Impact
 * **Efficiency:** Estimated **70% reduction** in manual annotation workload.
 * **Scalability:** Modular Python architecture allows for easy integration into MLOps pipelines.
