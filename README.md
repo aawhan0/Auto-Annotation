@@ -26,7 +26,7 @@ The pipeline utilizes a YOLOv8 nano model for high-speed inference.
 * **Audit Flag:** Any image with detections **<85%** or zero detections is moved to a `needs_review` folder.
 
 <p align="center">
-  <img src="assets/ui_ui_ss.png" width="800" alt="Construction Safety Audit Tool UI">
+  <img src="assets/ui_ss.png" width="800" alt="Construction Safety Audit Tool UI">
   <br>
   <b>Figure 1:</b> <i>Interactive UI showing the Dual-Layer Audit flagging a low-confidence detection.</i>
 </p>
