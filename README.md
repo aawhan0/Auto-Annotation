@@ -30,6 +30,9 @@ The pipeline utilizes a YOLOv8 nano model for high-speed inference.
   <br>
   <b>Figure 1:</b> <i>Interactive UI showing the Dual-Layer Audit flagging a low-confidence detection.</i>
 </p>
+
+---
+
 ## 📊 Business Impact
 * **Efficiency:** Estimated **70% reduction** in manual annotation workload.
 * **Scalability:** Modular Python architecture allows for easy integration into MLOps pipelines.
